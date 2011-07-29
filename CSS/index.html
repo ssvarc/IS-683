@@ -1,0 +1,144 @@
+CTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title> CSS Assignment </title>
+	<link href="layout-fluid.css" rel="stylesheet"/>
+	<link href="style.css" rel="Stylesheet"/>
+	<style type="text/css"></style>
+	<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="jquery.tablesorter.js"></script>	
+		
+		<script type="text/javascript">
+		$(document).ready(function(){ 
+		        $("#table").tablesorter({widgets: ['zebra']}); 
+		        $("tr:even").addClass("even");
+		    } 
+		); 
+		</script> 
+	
+</head>
+<body>
+	<div id="outer_container">
+	<div id="banner" >
+		 CSS Assignment 
+	</div>
+		<div id="primaryLinks">
+		<ol>
+			<li><a href="http://resume.ssvarc.com/drupal">My resume site</a></li>
+			<li><a href="http://gizmodo.com/">Gizmodo</a></li>
+			<li><a href="http://www.w3schools.com/css/default.asp">W3School's CSS Tutorial</a></li>
+		</ol>
+
+		<ul >   <!--secondary links-->
+			<li><a href="#"> New York Times</a></li>
+			<li><a href="#"> Wall Street Journal</a></li>
+			<li><a href="#"> Lifehacker</a></li>
+		</ul>
+		</div>
+
+    <div id="container">
+		
+		<div id="left" class="column">
+		<ol> <h4>Computer Gurus:</h4>
+			<li>Mark Russinovich</li>
+			<li>Bill Joy</li>
+			<li>Fred Brooks</li>
+		</ol>	
+		</div>
+
+		<div id="right" class="column">
+			<ol> <h4>Technology Columnists:</h4>
+			<li>David Pogue</li>
+			<li>Walt Mossberg</li>
+			</ol>
+		</div>
+		
+		<div id="center" class="column">
+			<h1> This is H1</h1>
+			<h2> This is H2</h2>
+			<h3> This is H3</h3>
+			<h4> This is H4</h4>
+			<h5> This is H5</h5>
+			<h6> This is H6</h6>
+
+
+      
+			<table id="table">
+			<thead>
+				<tr>
+					<th>first column</th>
+					<th>second column</th>
+					<th>third column</th>	
+					<th>fourth column</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>lorem</td>
+					<td>ipsum</td>
+					<td>dolor</td>
+					<td>sit</td>
+				</tr>
+				<tr>
+					<td>lorem</td>
+					<td>ipsum</td>
+					<td>dolor</td>
+					<td>sit</td>
+				</tr>
+				<tr>
+					<td>lorem</td>
+					<td>ipsum</td>
+					<td>dolor</td>
+					<td>sit</td>
+				</tr>
+				<tr>
+					<td>lorem</td>
+					<td>ipsum</td>
+					<td>dolor</td>
+					<td>sit</td>
+				</tr>
+				<tr>
+					<td>lorem</td>
+					<td>ipsum</td>
+					<td>dolor</td>
+					<td>sit</td>
+				</tr>
+				<tr>
+					<td>lorem</td>
+					<td>ipsum</td>
+					<td>dolor</td>
+					<td>sit</td>
+				</tr>
+				<tr>
+					<td>hello</td>
+					<td>ipsum</td>
+					<td>dolor</td>
+					<td>sit</td>
+				</tr>
+				<tr>
+					<td>bye</td>
+					<td>ipsum</td>
+					<td>dolor</td>
+					<td>sit</td>
+				</tr>
+			</tbody>			
+			</table>
+			<p></p>
+			
+			<blockquote id="block">"Just a smidgen of what's possible!"</blockquote>   
+		</div>
+	</div>
+        <div id="footer">
+
+            CompuMedic Web Division <br/>
+			CSS assignment for IS-683 Web Developement
+
+        </div>
+
+	</div>
+</body>
+
+</html>
+
